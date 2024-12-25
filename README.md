@@ -1,6 +1,2 @@
 
 # Zitong Zhao
-
-# Education
-
-# 
