@@ -10,7 +10,7 @@ author:
   email: zitongz@tamu.edu
 
 #theme: minima
-theme = "LeaveIt"
+theme: "LeaveIt"
 
 #header_pages:
 #  - about.md
