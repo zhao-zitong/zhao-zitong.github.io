@@ -1,19 +1,13 @@
 title: Zitong Zhao
-#logo: 
-#description
+logo: 
+description: 
+
 #first_name: Zitong
 #middle_name: 
 #last_name: Zhao
 
-author:
-  name: Zitong Zhao
-  email: zitongz@tamu.edu
 
 theme: minima
-#theme: "LeaveIt"
-
-header_pages:
-  - about.md
 
 
 
