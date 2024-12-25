@@ -9,11 +9,11 @@ author:
   name: Zitong Zhao
   email: zitongz@tamu.edu
 
-#theme: minima
-theme: "LeaveIt"
+theme: minima
+#theme: "LeaveIt"
 
-#header_pages:
-#  - about.md
+header_pages:
+  - about.md
 
 
 
