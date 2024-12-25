@@ -5,10 +5,10 @@
 #middle_name: 
 #last_name: Zhao
 
-#author:
-#  name: Zitong Zhao
-#  email: zitongz@tamu.edu
-#
+author:
+  name: Zitong Zhao
+  email: zitongz@tamu.edu
+
 #theme: minima
 theme = "LeaveIt"
 
