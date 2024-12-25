@@ -10,7 +10,7 @@
 #  email: zitongz@tamu.edu
 #
 #theme: minima
-
+theme = "LeaveIt"
 
 #header_pages:
 #  - about.md
