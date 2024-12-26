@@ -1,6 +1,6 @@
 title: Zitong Zhao
 logo: /assets/images/my-logo.png
-description: 
+description: © {{ 'now' | date: '%Y' }} Zitong Zhao. All rights reserved.
 
 
 theme: minima
@@ -15,4 +15,4 @@ header_pages:
   - teaching.md
  
   
-© {{ 'now' | date: '%Y' }} Zitong Zhao. All rights reserved.
+
