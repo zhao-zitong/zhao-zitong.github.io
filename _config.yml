@@ -1,13 +1,12 @@
 title: Zitong Zhao
-logo: 
+logo: /assets/images/my-logo.png
 description: 
-
-#first_name: Zitong
-#middle_name: 
-#last_name: Zhao
 
 
 theme: minima
+
+author: Zitong Zhao
+email: zitongz@tamu.edu
 
 
 header_pages:
