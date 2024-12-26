@@ -15,3 +15,4 @@ header_pages:
   - teaching.md
  
   
+© {{ 'now' | date: '%Y' }} Zitong Zhao. All rights reserved.
