@@ -1,13 +1,10 @@
 title: Zitong Zhao
 logo: /assets/images/my-logo.png
-description: © {{ 'now' | date: '%Y' }} Zitong Zhao. All rights reserved.
-
 
 theme: minima
 
 author: Zitong Zhao
 email: zitongz@tamu.edu
-
 
 header_pages:
   - about.md
