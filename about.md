@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a finance Ph.D student at TAMU Mays Business School.
+I'm a Ph.D. student in finance at TAMU Mays Business School.
 
 Email: zitongz@tamu.edu
 
