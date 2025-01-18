@@ -143,6 +143,7 @@
 
 .footer-col-wrapper,
 .social-links {
+  text-align: center;
   @include relative-font-size(0.9375);
   color: $brand-color;
 }
