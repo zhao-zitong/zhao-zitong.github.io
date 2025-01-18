@@ -10,4 +10,5 @@ permalink: /Teaching/
 2023 Spring&ensp;&emsp;&emsp;- TA for *Prof. Huang* (Money and Capital markets) \
 2023 Fall&emsp;&emsp;&emsp;&emsp;- TA for *Prof. Cen* (Managerial Finance I) \
 2024 Spring&ensp;&emsp;&emsp;- TA for *Prof. Huang* (Money and Capital markets) \
-2024 Fall&emsp;&emsp;&emsp;&emsp;- TA for *Prof. Cen* (Managerial Finance I)
+2024 Fall&emsp;&emsp;&emsp;&emsp;- TA for *Prof. Cen* (Managerial Finance I) \
+2025 Spring&ensp;&emsp;&emsp;- TA for *Prof. Huang* (Money and Capital markets) \
