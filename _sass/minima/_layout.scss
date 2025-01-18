@@ -209,6 +209,10 @@
   @include relative-font-size(1);
 }
 
+.page-title {
+  font-size: 28px; // Adjust the font size as desired
+}
+
 .post-list-heading {
   @include relative-font-size(1.75);
 }
