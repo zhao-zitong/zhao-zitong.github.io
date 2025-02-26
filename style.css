@@ -15,11 +15,16 @@ h1 {
     top:0;
     line-height: 80px;
     font-weight: normal;
-    font-family: Didot, serif;
+    font-family: "URW Baskerville", Baskerville, serif;
+    font-size:38px;
     /*background-image:url(images/logo.svg) ;
     background-repeat: no-repeat;
     background-position: center;
     width:210px;*/
+}
+header title{
+    font-size:18px; 
+    font-family: "URW Baskerville", Baskerville, serif; 
 }
 header ul {
     position:absolute;
@@ -31,7 +36,7 @@ header li {
     display:inline;
     margin-right:4vw;   
     font-size:17px; 
-    font-family: Didot, serif;
+    font-family: "URW Baskerville", Baskerville, serif;
 }
 header a {
     color:white;
@@ -60,8 +65,8 @@ header a:hover {
     margin:25px 0;
 }
 .welcome img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 2px 15px rgba(0,0,0,0.2);
@@ -86,9 +91,10 @@ header a:hover {
     color:#202020;
     font-size:18px;
     margin:25px 0;
-    font-family: Didot, serif; 
+    font-family: "URW Baskerville", Baskerville, serif; 
 }
 
+/* About */
 .intro {
     background-color: #eeeded;
     color:white;
@@ -101,27 +107,29 @@ header a:hover {
     padding: 0 5%; /* Added for better spacing */
 }
 .intro img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 2px 15px rgba(0,0,0,0.2);
 }
 .intro h3{
     color:#202020;
-    font-size:20px;
-    margin:50px 45px 15px; 
+    font-size:21px;
+    margin:50px 60px 15px;
+    font-family: "URW Baskerville", Baskerville, serif;  
+    font-weight: 550;
 }
 .intro p {
     color:#202020;
     font-size:18px;
-    margin:0 45px;
+    margin:0 60px;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
 }
 .intro li{
     color:#202020;
     font-size:18px;
-    margin:0 60px;
+    margin:0 75px;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
     list-style-type: square;
 }
@@ -141,20 +149,20 @@ header a:hover {
     background-color: #eeeded;
     color:white;
     height: 30vh; /* Adjust to make it smaller */
-    padding-bottom: 1rem;
     display:flex;
     flex-direction: column; 
     align-items: center;
     justify-content: flex-end; /* Push content to the bottom */
-    padding-bottom: 10vh;
-    gap: 1.5rem;
+    gap: 1rem;
     padding: 0 5%; /* Added for better spacing */ 
 }
 .pagetitle h2 {
     color:#202020;
-    font-size:30px;
-    font-family: Didot, serif;
+    font-size:32px;
+    font-family: "URW Baskerville", Baskerville, serif;
+    font-weight: normal;
     align-items: center;
+    padding-bottom: 1%;
 }
 .pagetitle hr {
     width: 60%;
@@ -162,6 +170,19 @@ header a:hover {
     margin-right: auto;
 }
 
+/* Researching */
+.papers {
+    background-color:#eeeded;
+    color:#202020;
+    height:250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.8em;  
+}
+
+/* Teaching */
 .records {
     background-color:#eeeded;
     color:#202020;
