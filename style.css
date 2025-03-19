@@ -48,6 +48,7 @@ header a:hover {
     /*background-color: #530e0e;*/
 }
 
+/* index */
 .welcome {
     background-color: #eeeded;
     color:white;
@@ -61,8 +62,9 @@ header a:hover {
 }
 .welcome p {
     color:#202020;
-    font-size:18px;
-    margin:25px 0;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:35px 0;
 }
 .welcome img {
     width: 250px;
@@ -118,17 +120,19 @@ header a:hover {
     font-size:21px;
     margin:50px 60px 15px;
     font-family: "URW Baskerville", Baskerville, serif;  
-    font-weight: 550;
+    font-weight: normal;
 }
 .intro p {
     color:#202020;
-    font-size:18px;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
     margin:0 60px;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
 }
 .intro li{
     color:#202020;
-    font-size:18px;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
     margin:0 75px;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
     list-style-type: square;
@@ -204,7 +208,8 @@ header a:hover {
     display: flex;
     align-items: center;
     color:#202020;
-    font-size:18px;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
     width: 55vw;
     max-width: 800px;
     margin: 0 auto 10px;
@@ -231,7 +236,7 @@ footer {
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 13px;
+    font-size: 12px;
     font-family: Arial, sans-serif;
 }
 .menu {
