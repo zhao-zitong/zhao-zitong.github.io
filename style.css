@@ -176,31 +176,41 @@ header a:hover {
 
 /* Research */
 .papers {
-    background-color:#eeeded;
-    color:#202020;
-    height:70vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    line-height: 1.8em;  
-}
-.papers li::before {
-    content: "▪"; /* Unicode bullet character */
+    background-color: #eeeded;
     color: #202020;
-    margin-right: 10px; /* Spacing between bullet and text */
-    
+    height: 70vh;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start; /* Align items at the top */
+    align-items: center; /* Center items horizontally */
+    font-size: 18px;
+    line-height: 1.8em;
+    padding-top: 20px; /* Add spacing from the top */ 
+}
+.papers h3{
+    color: #202020;
+    font-size: 24px;
+    margin-top: 10vh; /* Space between h3 and list */
+    margin-bottom: 20px; /* Space between h3 and list */
+    font-family: "URW Baskerville", Baskerville, serif;
+    font-weight: normal;
+    text-align: center;
+}
+.papers ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack list items vertically */
+    align-items: center; /* Center list items */
 }
 .papers li{
-    display: flex;
-    align-items: center;
     color:#202020;
     font-size:18px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 60vw;
-    max-width: 800px;
-    margin: 0 auto 10px;
+    width: 50vw;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+    list-style-type: square;
+    margin-bottom: 10px; /* Space between items */
 }
 
 /* Teaching */
