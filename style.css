@@ -178,7 +178,7 @@ header a:hover {
 .papers {
     background-color:#eeeded;
     color:#202020;
-    height:250px;
+    height:70vh;
     display:flex;
     justify-content: center;
     align-items: center;
