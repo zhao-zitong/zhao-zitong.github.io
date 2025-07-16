@@ -62,7 +62,7 @@ header a:hover {
 }
 .welcome p {
     color:#202020;
-    font-size:16px;
+    font-size:18px;
     font-family: Arial, Helvetica, sans-serif;
     margin:35px 0;
 }
@@ -162,7 +162,7 @@ header a:hover {
 }
 .pagetitle h2 {
     color:#202020;
-    font-size:35px;
+    font-size:40px;
     font-family: "URW Baskerville", Baskerville, serif;
     font-weight: normal;
     align-items: center;
@@ -189,7 +189,7 @@ header a:hover {
 }
 .papers h3{
     color: #202020;
-    font-size: 24px;
+    font-size: 28px;
     margin-top: 10vh; /* Space between h3 and list */
     margin-bottom: 20px; /* Space between h3 and list */
     font-family: "URW Baskerville", Baskerville, serif;
