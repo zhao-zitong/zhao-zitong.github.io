@@ -213,9 +213,9 @@ header a:hover {
     margin-bottom: 10px; /* Space between items */
 }
 .papers li.paper-title {
+    list-style: none;
     font-size: 20px;        /* slightly larger */
     font-weight: 700;       /* bold */
-    text-decoration: underline;  /* or border-bottom if you prefer */
     letter-spacing: 0.02em;
 }
 
