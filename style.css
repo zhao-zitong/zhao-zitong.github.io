@@ -212,6 +212,12 @@ header a:hover {
     list-style-type: square;
     margin-bottom: 10px; /* Space between items */
 }
+.papers li.paper-title {
+    font-size: 20px;        /* slightly larger */
+    font-weight: 700;       /* bold */
+    text-decoration: underline;  /* or border-bottom if you prefer */
+    letter-spacing: 0.02em;
+}
 
 /* Teaching */
 .records {
