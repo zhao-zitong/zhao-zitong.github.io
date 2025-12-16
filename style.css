@@ -214,8 +214,9 @@ header a:hover {
 }
 .papers li.paper-title {
     list-style: none;
-    font-size: 20px;        /* slightly larger */
-    font-weight: 700;       /* bold */
+    font-size: 20px;
+    font-weight: normal;    /* not bold */
+    font-style: italic;     /* italic */
     letter-spacing: 0.02em;
 }
 
