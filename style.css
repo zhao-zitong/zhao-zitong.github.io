@@ -59,12 +59,14 @@ header a:hover {
   gap: 2rem;                 /* 图片和文字块之间的距离 */
   padding: 0 5%;
 }
+/* 强制锁死 welcome 里的这张图 */
 .welcome > img {
-  width: 250px;
-  height: 250px;
-  aspect-ratio: 1 / 1;
+  width: 250px !important;
+  height: 250px !important;
+  max-width: 250px !important;
+  max-height: 250px !important;
+  flex: 0 0 auto;
   display: block;
-  flex: 0 0 auto;            /* 不拉伸，不被压缩 */
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
