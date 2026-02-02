@@ -70,7 +70,8 @@ header a:hover {
   color: #202020;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1;
+  text-align: center;   /* 关键：让文字居中 */
 }
 .welcome-text .hi {
   margin-bottom: 1.4rem;     /* 你想更远就调大 */
