@@ -59,6 +59,12 @@ header a:hover {
   gap: 2rem;                 /* 图片和文字块之间的距离 */
   padding: 0 5%;
 }
+.welcome img { 
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    box-shadow: 0 2px 15px rgba(0,0,0,0.2); }
 .welcome-text {
   display: flex;
   flex-direction: column;
