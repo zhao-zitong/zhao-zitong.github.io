@@ -1,45 +1,53 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal academic website of Zitong Zhao, Finance Ph.D. student at Texas A&amp;M University.">
     <title>Zitong Zhao</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/my-logo.png" type="image/x-icon">
 </head>
-<body>
+<body class="welcome-page">
     <header>
-    <button class="menu">&#9776;</button>
-    <h1><a href="welcome.html">Zitong Zhao</a></h1>
-    <nav>
-    <ul>
-        <li><a href="index.html">ABOUT</a></li>
-        <li><a href="research.html">RESEARCH</a></li>
-        <li><a href="teaching.html">TEACHING</a></li>
-        <li><a href="#">CV</a></li>             
-    </ul>
-    </nav>  
-    </header>   
+        <button class="menu" aria-label="Open navigation">&#9776;</button>
+        <h1><a href="welcome.html">Zitong Zhao</a></h1>
+        <nav aria-label="Primary navigation">
+            <ul>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="research.html">RESEARCH</a></li>
+                <li><a href="teaching.html">TEACHING</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
+        <section class="welcome">
+            <a class="portrait-link" href="index.html" aria-label="About Zitong Zhao">
+                <img src="images/my-photo-welcome.jpg" alt="Zitong Zhao's portrait">
+            </a>
+            <div class="welcome-text">
+                <p class="hi">
+                    <button class="greeting-toggle" type="button">
+                        <span class="greeting-text" aria-live="polite">Hi! This is my personal page.</span>
+                        <svg class="greeting-sparkle" viewBox="0 0 24 24" stroke="#7A2E36" stroke-width="1.5" fill="none" aria-hidden="true" focusable="false">
+                            <path d="M12 2.5 14.3 9.7 21.5 12 14.3 14.3 12 21.5 9.7 14.3 2.5 12 9.7 9.7Z" />
+                        </svg>
+                    </button>
+                </p>
+                <p class="name">Zitong Zhao</p>
+                <p class="bio">
+                    <span class="bio-role">Ph.D. Student in Finance</span>
+                    <span class="bio-separator" aria-hidden="true">&middot;</span>
+                    <span class="bio-school">Texas A&amp;M University</span>
+                </p>
+            </div>
+        </section>
 
-    <section class="welcome">
-    <img src="images/my-photo-welcome.jpg" alt="Zitong Zhao's portrait">
-    <div class="welcome-text"> 
-        <p class="hi">Hi! This is my personal page.</p> 
-        <p class="name">Zitong Zhao</p> 
-        <p class="bio">Ph.D. Student in Finance | Texas A&M University</p> </div>
-    </section>
-
-    <!--
-    <section class="slogan">
-    <a href="https://clustrmaps.com/site/1c4ab"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=gHyUy4b4nsBRDtMS8EbeWkswtCO3Oddw_AMCVXV9U98&cl=ffffff" /></a>
-    <blockquote>
-        <p>" Help ever hurt never, Love all serve all. "</p>
-    </blockquote>
-    </section>
-    -->
-    
+        <!-- Legacy optional visitor map preserved for future reuse:
+        <a href="https://clustrmaps.com/site/1c4ab" title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=gHyUy4b4nsBRDtMS8EbeWkswtCO3Oddw_AMCVXV9U98&cl=ffffff" alt="ClustrMaps"></a>
+        -->
     </main>
 
     <footer>
@@ -48,5 +56,16 @@
             document.getElementById('year').textContent = new Date().getFullYear();
         </script>
     </footer>
+    <script>
+        const greetingButton = document.querySelector('.greeting-toggle');
+        const greetingText = greetingButton.querySelector('.greeting-text');
+        const originalGreeting = greetingText.textContent;
+        const alternateGreeting = 'Nice to meet you!';
+        greetingButton.addEventListener('click', () => {
+            greetingText.textContent = greetingText.textContent === alternateGreeting
+                ? originalGreeting
+                : alternateGreeting;
+        });
+    </script>
 </body>
 </html>

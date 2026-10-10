@@ -1,87 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zitong Zhao</title>
+    <meta name="description" content="Research by Zitong Zhao, Finance Ph.D. student at Texas A&amp;M University.">
+    <title>Zitong Zhao | Research</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/my-logo.png" type="image/x-icon">
 </head>
-<body>
+<body class="research-page">
     <header>
-    <button class="menu">&#9776;</button>
-    <h1><a href="welcome.html">Zitong Zhao</a></h1>
-    <nav>
-    <ul>
-        <li><a href="index.html">ABOUT</a></li>
-        <li><a href="research.html">RESEARCH</a></li>
-        <li><a href="teaching.html">TEACHING</a></li>
-        <li><a href="#">CV</a></li>             
-    </ul>
-    </nav>  
-    </header>   
+        <button class="menu" aria-label="Open navigation">&#9776;</button>
+        <h1><a href="welcome.html">Zitong Zhao</a></h1>
+        <nav aria-label="Primary navigation">
+            <ul>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="research.html" aria-current="page">RESEARCH</a></li>
+                <li><a href="teaching.html">TEACHING</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
+        <section class="pagetitle">
+            <h2>RESEARCH</h2>
+        </section>
 
-    <section class="pagetitle">
-    <h2>RESEARCH</h2>
-    <hr width="40%" size="2.5">
-    </section>
+        <section class="papers">
+            <div class="paper-group">
+                <h3>
+                    <button class="section-toggle" type="button" aria-expanded="true" aria-controls="working-papers">
+                        <span class="toggle-label">Working Papers</span>
+                        <span class="section-chevron" aria-hidden="true"></span>
+                    </button>
+                </h3>
+                <ul class="paper-list" id="working-papers">
+                    <li>
+                        <div class="paper-header">
+                            <span class="paper-title">What Large Funds Know: Fund Scale and the Production of Information</span>
+                            <span class="paper-date">April 2026</span>
+                        </div>
+                        <div class="paper-coauthor">
+                            with <span class="person-name">Dora Horstman</span> and <span class="person-name">Shimeng Wang</span>
+                        </div>
+                        <ul class="paper-notes">
+                            <li>Presentations: TAMU Brownbag Seminar 2026 (scheduled); FMA 2026 (scheduled)</li>
+                            <li>
+                                <button class="abstract-toggle" type="button" aria-expanded="false" aria-controls="fund-scale-abstract">
+                                    <span class="toggle-label">Abstract</span>
+                                    <span class="abstract-chevron" aria-hidden="true"></span>
+                                </button>
+                                <p class="abstract-text" id="fund-scale-abstract" hidden>This paper studies which mutual fund skill scales. Using holdings-based decompositions of performance, we find that stock picking exhibits strong decreasing returns to scale, whereas market timing is comparatively scalable. A one-standard-deviation increase in fund size reduces picking alpha by 6.48%/year while leaving timing alpha unchanged. As funds grow, the composition of dollar value added shifts from stock picking toward market timing. Consistent with managers reallocating attention from capacity-constrained firm-specific signals toward scalable aggregate signals, the trades of growing funds become less predictive of firm-specific outcomes. Their trade-implied shifts in market exposure, by contrast, remain predictive of market returns. Fund scale changes not only how much funds earn but what they know.</p>
+                            </li>
+                        </ul>
+                    </li>
 
-    
-    
-    <section class="papers">
-        <div class="paper-group">
-            <h3>Working Papers</h3>
-            <ul class="paper-list">
-                
-                <li>
-                    <div class="paper-header">
-                        <span class="paper-title">Which Skill Scales? Mutual Fund Stock Picking and Market Timing</span>
-                        <span class="paper-date">April 2026</span>
-                    </div>
-                    <div class="paper-coauthor">
-                        with <span class="person-name">Dora Horstman</span> and <span class="person-name">Shimeng Wang</span>
-                    </div>
-                    <ul class="paper-notes">
-                        <li>Presentations: Texas A&amp;M University Brownbag Seminar 2026 (scheduled); FMA 2026 (scheduled)</li>
-                        <!-- <li>Abstract: </li> -->
-                    </ul>
-                </li>
+                    <li>
+                        <div class="paper-header">
+                            <span class="paper-title">What's in a Green Name? Evidence from ESG Mutual Funds</span>
+                            <span class="paper-date">October 2024</span>
+                        </div>
+                        <ul class="paper-notes">
+                            <li>Presentations: TAMU Brownbag Seminar 2024; FMA 2025; SFA 2025</li>
+                            <li>
+                                <button class="abstract-toggle" type="button" aria-expanded="false" aria-controls="green-name-abstract">
+                                    <span class="toggle-label">Abstract</span>
+                                    <span class="abstract-chevron" aria-hidden="true"></span>
+                                </button>
+                                <p class="abstract-text" id="green-name-abstract" hidden>This paper examines the fire sale behaviors of ESG mutual funds, categorized by portfolio and by name, in response to substantial outflows. The analysis reveals that investors exhibit no sensitivity to the underperformance of ESG-named funds. These funds are less likely to engage in fire sales of high-ESG stocks, instead opting to maintain or even increase their allocations to such stocks. Moreover, high-ESG stocks experience lower flow-induced selling pressure, with this effect being further mitigated when the stocks are more heavily owned by ESG funds. The findings suggest that the weak flow-performance relationship enables ESG-named funds to retain high-ESG stocks, even at the expense of financial performance.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
 
-                <li>
-                    <div class="paper-header">
-                        <span class="paper-title">What's in a Green Name? Evidence from ESG Mutual Funds</span>
-                        <span class="paper-date">October 2024</span>
-                    </div>
-                    <ul class="paper-notes">
-                        <li>Presentations: Texas A&amp;M University Brownbag Seminar 2024; FMA 2025; SFA 2025</li>
-                        <!-- <li>Abstract: </li> -->
-                    </ul>
-                </li>
-            </ul>
-
-        </div>
-
-        <div class="paper-group">
-            <h3>Work in Progress</h3>
-            <ul class="paper-list">
-                <li>
-                    <span class="paper-title">Institutional Investors Trade on Redactions</span>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <!--
-    <section class="slogan">
-        <blockquote>
-            <p>" Help ever hurt never, Love all serve all. "</p>
-        </blockquote>
-    </section>
-    -->
-
+            <div class="paper-group">
+                <h3>
+                    <button class="section-toggle" type="button" aria-expanded="true" aria-controls="work-in-progress">
+                        <span class="toggle-label">Work in Progress</span>
+                        <span class="section-chevron" aria-hidden="true"></span>
+                    </button>
+                </h3>
+                <ul class="paper-list" id="work-in-progress">
+                    <li>
+                        <span class="paper-title">Institutional Investors Trade on Redactions</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
+
+    <button class="back-to-top" type="button" aria-label="Back to top" aria-hidden="true" tabindex="-1" inert>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M12 19V5M6 11l6-6 6 6" />
+        </svg>
+    </button>
 
     <footer>
         <p>Copyright © <span id="year"></span> Zitong Zhao. All rights reserved.</p>
@@ -89,5 +103,41 @@
             document.getElementById('year').textContent = new Date().getFullYear();
         </script>
     </footer>
+    <script>
+        document.querySelectorAll('.section-toggle, .abstract-toggle').forEach((button) => {
+            const content = document.getElementById(button.getAttribute('aria-controls'));
+            button.addEventListener('click', () => {
+                const expanded = button.getAttribute('aria-expanded') === 'true';
+                button.setAttribute('aria-expanded', String(!expanded));
+                content.hidden = expanded;
+            });
+        });
+
+        const backToTop = document.querySelector('.back-to-top');
+        let backToTopVisible = false;
+        let scrollPending = false;
+        const updateBackToTop = () => {
+            const visible = window.scrollY > 500;
+            if (visible === backToTopVisible) return;
+            backToTopVisible = visible;
+            backToTop.classList.toggle('is-visible', visible);
+            backToTop.setAttribute('aria-hidden', String(!visible));
+            backToTop.tabIndex = visible ? 0 : -1;
+            backToTop.inert = !visible;
+        };
+        window.addEventListener('scroll', () => {
+            if (scrollPending) return;
+            scrollPending = true;
+            requestAnimationFrame(() => {
+                updateBackToTop();
+                scrollPending = false;
+            });
+        }, { passive: true });
+        backToTop.addEventListener('click', () => {
+            const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            window.scrollTo({ top: 0, behavior: reducedMotion ? 'instant' : 'smooth' });
+        });
+        updateBackToTop();
+    </script>
 </body>
 </html>
